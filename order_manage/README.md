@@ -5,9 +5,9 @@ two apps:
 2. inventory: for storing Deliver info
 
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 Run the below fixtures before hitting the API endpoints
 '''
