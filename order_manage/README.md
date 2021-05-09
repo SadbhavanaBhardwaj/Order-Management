@@ -29,7 +29,7 @@ Delivery object has One to One relationship with Order object and a signal is tr
 For more Object Relation info, an jpg file of ER Diag is attached
 
 APIs:
-orders/create_order/ : creates order 
+**orders/create_order/** : creates order 
     input data: 
         distance: int
         items: array of Item objects
@@ -53,13 +53,13 @@ orders/create_order/ : creates order
 
 -------------------------
 
-orders/get_items/ - fetch all orders from inventory
+**orders/get_items/** - fetch all orders from inventory
 
 
 -----------------------
 
 
-inventory/get_order/ - get delivery time for the requested order
+**inventory/get_order/** - get delivery time for the requested order
     request = {"order_id" :"090521_02"}
     reponse = HTTP 200 OK
             Allow: POST, OPTIONS
@@ -74,7 +74,7 @@ inventory/get_order/ - get delivery time for the requested order
 -------------------------
 
 
-inventory/finish_order/ - to change the status of an order to Completed state 
+**inventory/finish_order/** - to change the status of an order to Completed state 
 
       response =  HTTP 200 OK
         Allow: POST, OPTIONS
@@ -87,7 +87,7 @@ inventory/finish_order/ - to change the status of an order to Completed state
 
 --------------------------
 
-inventory/order_confirmation_status/: gets the order status
+**inventory/order_confirmation_status/** - gets the order status
     mehtod: POST
     input data:
         {"order_id": <order_id>}
