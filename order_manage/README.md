@@ -5,16 +5,24 @@ two apps:
 2. inventory: for storing Deliver info
 
 
-
+'''
 pip install -r requirements.txt
+'''
 
 Run the below fixtures before hitting the API endpoints
-
+'''
 python3 manage.py loaddata customer.json
-python3 manage.py loaddata item_category.json
-python3 manage.py loaddata items.json
-python3 manage.py loaddata teams.json
+'''  
 
+'''
+python3 manage.py loaddata item_category.json
+'''
+'''
+python3 manage.py loaddata items.json
+'''
+''''
+python3 manage.py loaddata teams.json
+'''
 
 
 Delivery object has One to One relationship with Order object and a signal is trigerred when an order is created so that the corresponding Delivery object is also created
