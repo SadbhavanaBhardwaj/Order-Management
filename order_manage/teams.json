@@ -1,0 +1,16 @@
+[
+    {    
+        "model": "inventory.deliveryTeam",
+        "pk": 1,
+        "fields": {
+            "name": "TEAM A"
+        }
+    },
+    {
+        "model": "inventory.deliveryTeam",
+        "pk": 2,
+        "fields": {
+            "name": "TEAM B"
+        }
+    }
+]

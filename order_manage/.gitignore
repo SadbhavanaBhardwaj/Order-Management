@@ -1,0 +1,70 @@
+adcuratio/files/ACXIOM_GROUP/*
+*.py[cod]
+env/
+# C extensions
+*.so
+*.patch
+*.out
+# Packages
+*.egg
+*.egg-info
+*.bv
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+node_modules
+__pycache__
+db.sqlite3
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.idea
+.vscode
+.sublime-*
+*~
+*.swp
+*.swo
+*#*
+.directory
+.DS*
+
+*.log
+pip-log.txt
+static/*
+
+media
+adcuratio/local_settings*
+gunicorn_start
+engine/local_configurations*
+celerybeat-schedule
+celerybeat.pid
+scripts/prediction_update.py
+supervisord_extension.conf
+*.env
+logs/*
+htmlcov/*
+test_suite/resources/temp_files/*
+coverage_html_report/*
+scripts/Deals/*
+scripts/*_230013.xml
+*_.xml

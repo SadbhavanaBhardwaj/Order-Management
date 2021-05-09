@@ -1,0 +1,11 @@
+[
+    {
+        "model": "order.customer",
+        "pk": 1,
+        "fields": {
+            "name": "Sadbhavana",
+            "address": "Delhi, India",
+            "phone_no": 8851936386
+        }
+    }
+]

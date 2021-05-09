@@ -1,0 +1,23 @@
+[
+    {
+        "model": "order.itemCategory",
+        "pk": 1,
+        "fields": {
+            "name": "Television"
+        }
+    },
+    {
+        "model": "order.itemCategory",
+        "pk": 2,
+        "fields": {
+            "name": "Refrigerator"
+        }
+    },
+    {
+        "model": "order.itemCategory",
+        "pk": 3,
+        "fields": {
+            "name": "Iron"
+        }
+    }
+]

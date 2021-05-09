@@ -1,0 +1,42 @@
+[
+    {
+        "model": "order.items",
+        "pk": 1,
+        "fields": {
+            "model_num": "T2020UHD",
+            "availble": 1,
+            "price": 3899,
+            "category": 1
+        }
+    },
+    {
+        "model": "order.items",
+        "pk": 2,
+        "fields": {
+            "model_num": "R3758LIL",
+            "availble": 2,
+            "price": 35999,
+            "category": 2
+        }
+    },
+    {
+        "model": "order.items",
+        "pk": 3,
+        "fields": {
+            "model_num": "R289LCD",
+            "availble": 0,
+            "price": 21499,
+            "category": 2
+        }
+    },
+    {
+        "model": "order.items",
+        "pk": 4,
+        "fields": {
+            "model_num": "T202140K",
+            "availble": 3,
+            "price": 45299,
+            "category": 1
+        }
+    }
+]
