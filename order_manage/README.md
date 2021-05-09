@@ -35,6 +35,7 @@ APIs:
         items: array of Item objects
         customer: one customer id
         amount: array of quantity for each item object
+        
           request : {
             "amount": [1],
             "items": [1],
