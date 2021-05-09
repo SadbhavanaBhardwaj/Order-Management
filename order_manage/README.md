@@ -76,6 +76,9 @@ APIs:
 
 **inventory/finish_order/** - to change the status of an order to Completed state 
 
+      input data:
+            {"order_id": <order_id>}
+
       response =  HTTP 200 OK
         Allow: POST, OPTIONS
         Content-Type: application/json
@@ -88,8 +91,9 @@ APIs:
 --------------------------
 
 **inventory/order_confirmation_status/** - gets the order status
-    mehtod: POST
-    input data:
-        {"order_id": <order_id>}
+
+        mehtod: POST
+        input data:
+            {"order_id": <order_id>}
 
 
